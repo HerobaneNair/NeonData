@@ -1,1 +1,31 @@
-
+{
+    "Discrimination": {
+        "display_item": "ENCHANTED_BOOK",
+        "information": {
+            "description": "Offensive behavior towards a group of individuals",
+            "fancy_reason": "Discrimination of a player or group of people.",
+            "valid": [
+                "Saying \"faggot\", the n-word or any other racial slur.",
+                "Any form of racism, sexism, homophobia, transphobia, etc."
+            ]
+        },
+        "offenses": {
+            "1": {
+                "type": "mute",
+                "duration": "7d"
+            },
+            "2": {
+                "type": "mute",
+                "duration": "14d"
+            },
+            "3": {
+                "type": "mute",
+                "duration": "30d"
+            },
+            "4": {
+                "type": "mute",
+                "duration": "permanent"
+            }
+        }
+    }
+}
