@@ -40,6 +40,9 @@
             "invalid": [
                 "Naked skins that don't show private parts.",
                 "Example of a valid skin: https://namemc.com/skin/0c6c0d037eba36bd"
+            ],
+            "notes": [
+                "If you are unsure if your skin is inappropriate, please ask a staff member."
             ]
         },
         "offenses": {
