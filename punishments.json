@@ -1,4 +1,38 @@
 {
+    "Threats (DDos/Dox)": {
+        "display_item": "FLINT",
+        "information": {
+            "description": "Threatening to dds or dox someone",
+            "fancy_reason": "Threatening a player with doxing or ddosing",
+            "valid": [
+                "Saying \"I'm going to ddos you\".",
+                "Saying \"I'm gonna dox u\"",
+                "Saying \"I will fry your router bro\""
+            ]
+        },
+        "offenses": {
+            "1": {
+                "type": "blacklist",
+                "duration": "permanent"
+            }
+        }
+    }, 
+    "Revealing Personal Information": {
+        "display_item": "BOOK",
+        "information": {
+            "description": "Revealing personal information about another player",
+            "fancy_reason": "Revealing personal information about another player",
+            "valid": [
+                "Saying \"Pie’s address: 123 elmo street, lalaland, Utah 1439\"."
+            ]
+        },
+        "offenses": {
+            "1": {
+                "type": "blacklist",
+                "duration": "permanent"
+            }
+        }
+    }, 
     "Cheating": {
         "display_item": "IRON_SWORD",
         "information": {
