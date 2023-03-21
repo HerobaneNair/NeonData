@@ -2,7 +2,7 @@
     "Threats (DDos/Dox)": {
         "display_item": "FLINT",
         "information": {
-            "description": "Threatening to ddos or dox someone",
+            "description": "Threatening to dds or dox someone",
             "fancy_reason": "Threatening a player with doxing or ddosing",
             "valid": [
                 "Saying \"I'm going to ddos you\".",
@@ -64,7 +64,7 @@
             "fancy_reason": "Abusing a bug or glitch to gain an unfair advantage.",
             "valid": [
                 "Block glitching to get out of combat.",
-                "Player discovers and uses a glitch to get into a shulker room, stealing other player's items in the room"
+                "Any sort of abuse of a glitch/bug"
             ],
             "notes": [
                 "Report bugs to a higher up/developer"
