@@ -2,7 +2,7 @@
     "Threats (DDos/Dox)": {
         "display_item": "FLINT",
         "information": {
-            "description": "Threatening to dds or dox someone",
+            "description": "Threatening to ddos or dox someone",
             "fancy_reason": "Threatening a player with doxing or ddosing",
             "valid": [
                 "Saying \"I'm going to ddos you\".",
