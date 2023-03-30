@@ -286,7 +286,7 @@
             }
         }
     },
-    "Bypassing Filter": {
+    "Filter Bypass": {
         "display_item": "IRON_BARS",
         "information": {
             "description": "Purposefully bypassing the chat filter",
