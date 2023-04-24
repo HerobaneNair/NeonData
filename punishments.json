@@ -1,478 +1,478 @@
 {
-    "Threats (DDos/Dox)":{
-       "display_item":"FLINT",
-       "information":{
-          "description":"Threatening to dds or dox someone",
-          "fancy_reason":"Threatening a player with doxing or ddosing",
-          "valid":[
-             "Saying \"I'm going to ddos you\".",
-             "Saying \"I'm gonna dox u\"",
-             "Saying \"I will fry your router bro\""
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"blacklist",
-             "duration":"permanent"
-          }
-       }
+  "Threats (DDos/Dox)": {
+    "display_item": "FLINT",
+    "information": {
+      "description": "Threatening to dds or dox someone",
+      "fancy_reason": "Threatening a player with doxing or ddosing",
+      "valid": [
+        "Saying \"I'm going to ddos you\".",
+        "Saying \"I'm gonna dox u\"",
+        "Saying \"I will fry your router bro\""
+      ]
     },
-    "Revealing Personal Information":{
-       "display_item":"BOOK",
-       "information":{
-          "description":"Revealing personal information about another player",
-          "fancy_reason":"Revealing personal information about another player",
-          "valid":[
-             "Saying \"Pie’s address: 123 elmo street, lalaland, Utah 1439\"."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"blacklist",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Cheating":{
-       "display_item":"IRON_SWORD",
-       "information":{
-          "description":"Usage of mods or programs or clients to gain an unfair advantage.",
-          "fancy_reason":"Cheating through the use of mods, clients, or programs.",
-          "valid":[
-             "Using a hacked client, mod, or program to gain an unfair advantage."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"ban",
-             "duration":"7d"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"30d"
-          },
-          "4":{
-             "type":"ban",
-             "duration":"60d"
-          },
-          "5":{
-             "type":"ban",
-             "duration":"120d"
-          },
-          "6":{
-             "type":"ban",
-             "duration":"360d"
-          },
-          "7":{
-             "type":"ban",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Bug Abuse":{
-       "display_item":"SHEARS",
-       "information":{
-          "description":"Abusing a bug or glitch.",
-          "fancy_reason":"Abusing a bug or glitch to gain an unfair advantage.",
-          "valid":[
-             "Block glitching to get out of combat.",
-             "Any sort of abuse of a glitch/bug"
-          ],
-          "notes":[
-             "Report bugs to a higher up/developer"
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"1d"
-          },
-          "3":{
-             "type":"ban",
-             "duration":"7d"
-          },
-          "4":{
-             "type":"ban",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Teaming":{
-       "display_item":"LEAD",
-       "information":{
-          "description":"Teaming or cross teaming",
-          "fancy_reason":"Teaming",
-          "notes":[
-             "Applies on 1.8 pvp servers",
-             "Applies in Events where teaming is not allowed"
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"6h"
-          },
-          "3":{
-             "type":"ban",
-             "duration":"12h"
-          },
-          "4":{
-             "type":"ban",
-             "duration":"1d"
-          }
-       }
-    },
-    "Inappropriate Skin":{
-       "display_item":"PLAYER_HEAD",
-       "information":{
-          "description":"A skin that is inappropriate for the server.",
-          "fancy_reason":"Inappropriate Skin. ",
-          "valid":[
-             "Naked skins that show private parts.",
-             "Skins with hate symbols or inappropriate language.",
-             "Hitler, KKK, Osama Bin Laden, etc."
-          ],
-          "invalid":[
-             "Naked skins that don't show private parts.",
-             "Example of a valid skin: https://namemc.com/skin/0c6c0d037eba36bd"
-          ],
-          "notes":[
-             "If you are unsure if a skin is inappropriate, please ask a staff member."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"ban",
-             "duration":"30d"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Inappropriate Name":{
-       "display_item":"NAME_TAG",
-       "information":{
-          "description":"A name that is inappropriate for the server.",
-          "fancy_reason":"Inappropriate Name.",
-          "valid":[
-             "Discriminatory names, inappropriate names, or names that are generally not PG"
-          ],
-          "notes":[
-             "If you are unsure if a name is inappropriate, please ask a staff member."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"ban",
-             "duration":"30d"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Spamming":{
-       "display_item":"OAK_SIGN",
-       "information":{
-          "description":"Spamming or flooding chat with messages.",
-          "fancy_reason":"Spamming",
-          "valid":[
-             "Saying \"kill me please\" over 3 times in a short period of time.",
-             "Saying \"hello!!!\" with 30 exclamation marks at the end."
-          ],
-          "notes":[
-             "Spam = 3 or more messages in a short period of time.",
-             "Flooding = Purposefully trying to flood chat with messages."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30m"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"1h"
-          },
-          "4":{
-             "type":"mute",
-             "duration":"6h"
-          }
-       }
-    },
-    "Toxicity":{
-       "display_item":"GREEN_CANDLE",
-       "information":{
-          "description":"Being toxic towards other players",
-          "fancy_reason":"Toxicity",
-          "valid":[
-             "Saying \"you are so shit at this game bro\"."
-          ],
-          "notes":[
-             "Be somewhat lenient"
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30m"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"1h"
-          }
-       }
-    },
-    "Inappropriate Behavior":{
-       "display_item":"RABBIT_HIDE",
-       "information":{
-          "description":"Sending inappropriate messages.",
-          "fancy_reason":"Inappropriate Behavior",
-          "valid":[
-             "Saying \"please come touch me pete19\".",
-             "Sexual comments"
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30m"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"1h"
-          },
-          "4":{
-             "type":"mute",
-             "duration":"7d"
-          }
-       }
-    },
-    "Filter Bypass":{
-       "display_item":"IRON_BARS",
-       "information":{
-          "description":"Purposefully bypassing the chat filter",
-          "fancy_reason":"Inappropriate Behavior",
-          "valid":[
-             "Saying \"Holy sh!t\".",
-             "Saying \"Fmcking hell bro\"."
-          ],
-          "invalid":[
-             "Saying \"f***\".",
-             "Saying \"fk\""
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"6h"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"12h"
-          },
-          "4":{
-             "type":"mute",
-             "duration":"1d"
-          }
-       }
-    },
-    "Discrimination":{
-       "display_item":"ENCHANTED_BOOK",
-       "information":{
-          "description":"Offensive behavior towards a group of individuals",
-          "fancy_reason":"Discrimination of a player or group of people.",
-          "valid":[
-             "Saying \"faggot\", the n-word or any other racial slur.",
-             "Any form of racism, sexism, homophobia, transphobia, etc."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"mute",
-             "duration":"7d"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"14d"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"30d"
-          },
-          "4":{
-             "type":"mute",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Punishment Evasion":{
-       "display_item":"TRIDENT",
-       "information":{
-          "description":"Evading a punishment",
-          "fancy_reason":"Evading a punishment",
-          "valid":[
-             "Using signs, an alt, or other methods to evade a mute."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"blacklist",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Advertising (server)":{
-       "display_item":"PAPER",
-       "information":{
-          "description":"Advertising another server",
-          "fancy_reason":"Advertising another server",
-          "valid":[
-             "Saying \"join shitpvp.com\" or \"do /join shitpvp\""
-          ],
-          "invalid":[
-             "Saying \"hey let's 1v1 on mmc\"",
-             "Saying \"hey let's go play on hypixel\"",
-             "Bigger servers like hypixel, etc are allowed to be mentioned."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"mute",
-             "duration":"7d"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30d"
-          }
-       }
-    },
-    "Advertising (media)":{
-       "display_item":"PAPER",
-       "information":{
-          "description":"Advertising a social media account",
-          "fancy_reason":"Advertising",
-          "valid":[
-             "Saying \"hey everyone go sub to my youtube channel\"",
-             "Saying \"hey everyone go follow my twitch\""
-          ],
-          "invalid":[
-             "A Media rank saying \"hey everyone go sub to my youtube channel\""
-          ],
-          "notes":[
-             "Media ranks are allowed to advertise their own social media accounts."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30m"
-          },
-          "3":{
-            "type":"mute",
-            "duration":"1h"
-         },
-         "4":{
-            "type":"mute",
-            "duration":"1d"
-         },
-         "5":{
-            "type":"mute",
-            "duration":"7d"
-         }
-       }
-    },
-    "Death Wishes":{
-       "display_item":"REDSTONE",
-       "information":{
-          "description":"Wishing death or harm to another player",
-          "fancy_reason":"Wishing death or harm to another player",
-          "valid":[
-             "Saying \"kys\" or \"kill yourself\"",
-             "Saying \"get cancer\"",
-             "Saying \"I hope your mom dies\""
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"mute",
-             "duration":"7d"
-          },
-          "2":{
-             "type":"mute",
-             "duration":"30d"
-          },
-          "3":{
-             "type":"mute",
-             "duration":"permanent"
-          }
-       }
-    },
-    "Inappropriate Item/Team":{
-       "display_item":"REDSTONE",
-       "information":{
-          "description":"Using an inappropriate item or team name",
-          "fancy_reason":"Inappropriate Item/Team",
-          "valid":[
-             "Any item or team name that are inappropriate or offensive."
-          ]
-       },
-       "offenses":{
-          "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
-             "type":"ban",
-             "duration":"1d"
-          },
-          "3":{
-             "type":"ban",
-             "duration":"3d"
-          },
-          "4":{
-             "type":"ban",
-             "duration":"7d"
-          },
-          "5":{
-             "type":"ban",
-             "duration":"14d"
-          },
-          "6":{
-             "type":"ban",
-             "duration":"30d"
-          }
-       }
+    "offenses": {
+      "1": {
+        "type": "blacklist",
+        "duration": "permanent"
+      }
     }
- }
+  },
+  "Revealing Personal Information": {
+    "display_item": "BOOK",
+    "information": {
+      "description": "Revealing personal information about another player",
+      "fancy_reason": "Revealing personal information about another player",
+      "valid": [
+        "Saying \"Pie’s address: 123 elmo street, lalaland, Utah 1439\"."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "blacklist",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Cheating": {
+    "display_item": "IRON_SWORD",
+    "information": {
+      "description": "Usage of mods or programs or clients to gain an unfair advantage.",
+      "fancy_reason": "Cheating through the use of mods, clients, or programs.",
+      "valid": [
+        "Using a hacked client, mod, or program to gain an unfair advantage."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "30d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "60d"
+      },
+      "5": {
+        "type": "ban",
+        "duration": "120d"
+      },
+      "6": {
+        "type": "ban",
+        "duration": "360d"
+      },
+      "7": {
+        "type": "ban",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Bug Abuse": {
+    "display_item": "SHEARS",
+    "information": {
+      "description": "Abusing a bug or glitch.",
+      "fancy_reason": "Abusing a bug or glitch to gain an unfair advantage.",
+      "valid": [
+        "Block glitching to get out of combat.",
+        "Any sort of abuse of a glitch/bug"
+      ],
+      "notes": [
+        "Report bugs to a higher up/developer"
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "1d"
+      },
+      "3": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Teaming": {
+    "display_item": "LEAD",
+    "information": {
+      "description": "Teaming or cross teaming",
+      "fancy_reason": "Teaming",
+      "notes": [
+        "Applies on 1.8 pvp servers",
+        "Applies in Events where teaming is not allowed"
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "6h"
+      },
+      "3": {
+        "type": "ban",
+        "duration": "12h"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "1d"
+      }
+    }
+  },
+  "Inappropriate Skin": {
+    "display_item": "PLAYER_HEAD",
+    "information": {
+      "description": "A skin that is inappropriate for the server.",
+      "fancy_reason": "Inappropriate Skin. ",
+      "valid": [
+        "Naked skins that show private parts.",
+        "Skins with hate symbols or inappropriate language.",
+        "Hitler, KKK, Osama Bin Laden, etc."
+      ],
+      "invalid": [
+        "Naked skins that don't show private parts.",
+        "Example of a valid skin: https://namemc.com/skin/0c6c0d037eba36bd"
+      ],
+      "notes": [
+        "If you are unsure if a skin is inappropriate, please ask a staff member."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "ban",
+        "duration": "30d"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Inappropriate Name": {
+    "display_item": "NAME_TAG",
+    "information": {
+      "description": "A name that is inappropriate for the server.",
+      "fancy_reason": "Inappropriate Name.",
+      "valid": [
+        "Discriminatory names, inappropriate names, or names that are generally not PG"
+      ],
+      "notes": [
+        "If you are unsure if a name is inappropriate, please ask a staff member."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "ban",
+        "duration": "30d"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Spamming": {
+    "display_item": "OAK_SIGN",
+    "information": {
+      "description": "Spamming or flooding chat with messages.",
+      "fancy_reason": "Spamming",
+      "valid": [
+        "Saying \"kill me please\" over 3 times in a short period of time.",
+        "Saying \"hello!!!\" with 30 exclamation marks at the end."
+      ],
+      "notes": [
+        "Spam = 3 or more messages in a short period of time.",
+        "Flooding = Purposefully trying to flood chat with messages."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30m"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "1h"
+      },
+      "4": {
+        "type": "mute",
+        "duration": "6h"
+      }
+    }
+  },
+  "Toxicity": {
+    "display_item": "GREEN_CANDLE",
+    "information": {
+      "description": "Being toxic towards other players",
+      "fancy_reason": "Toxicity",
+      "valid": [
+        "Saying \"you are so shit at this game bro\"."
+      ],
+      "notes": [
+        "Be somewhat lenient"
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30m"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "1h"
+      }
+    }
+  },
+  "Inappropriate Behavior": {
+    "display_item": "RABBIT_HIDE",
+    "information": {
+      "description": "Sending inappropriate messages.",
+      "fancy_reason": "Inappropriate Behavior",
+      "valid": [
+        "Saying \"please come touch me pete19\".",
+        "Sexual comments"
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30m"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "1h"
+      },
+      "4": {
+        "type": "mute",
+        "duration": "7d"
+      }
+    }
+  },
+  "Filter Bypass": {
+    "display_item": "IRON_BARS",
+    "information": {
+      "description": "Purposefully bypassing the chat filter",
+      "fancy_reason": "Inappropriate Behavior",
+      "valid": [
+        "Saying \"Holy sh!t\".",
+        "Saying \"Fmcking hell bro\"."
+      ],
+      "invalid": [
+        "Saying \"f***\".",
+        "Saying \"fk\""
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "6h"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "12h"
+      },
+      "4": {
+        "type": "mute",
+        "duration": "1d"
+      }
+    }
+  },
+  "Discrimination": {
+    "display_item": "ENCHANTED_BOOK",
+    "information": {
+      "description": "Offensive behavior towards a group of individuals",
+      "fancy_reason": "Discrimination of a player or group of people.",
+      "valid": [
+        "Saying \"faggot\", the n-word or any other racial slur.",
+        "Any form of racism, sexism, homophobia, transphobia, etc."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "mute",
+        "duration": "7d"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "14d"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "30d"
+      },
+      "4": {
+        "type": "mute",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Punishment Evasion": {
+    "display_item": "TRIDENT",
+    "information": {
+      "description": "Evading a punishment",
+      "fancy_reason": "Evading a punishment",
+      "valid": [
+        "Using signs, an alt, or other methods to evade a mute."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "blacklist",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Advertising (server)": {
+    "display_item": "PAPER",
+    "information": {
+      "description": "Advertising another server",
+      "fancy_reason": "Advertising another server",
+      "valid": [
+        "Saying \"join shitpvp.com\" or \"do /join shitpvp\""
+      ],
+      "invalid": [
+        "Saying \"hey let's 1v1 on mmc\"",
+        "Saying \"hey let's go play on hypixel\"",
+        "Bigger servers like hypixel, etc are allowed to be mentioned."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "mute",
+        "duration": "7d"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30d"
+      }
+    }
+  },
+  "Advertising (media)": {
+    "display_item": "PAPER",
+    "information": {
+      "description": "Advertising a social media account",
+      "fancy_reason": "Advertising",
+      "valid": [
+        "Saying \"hey everyone go sub to my youtube channel\"",
+        "Saying \"hey everyone go follow my twitch\""
+      ],
+      "invalid": [
+        "A Media rank saying \"hey everyone go sub to my youtube channel\""
+      ],
+      "notes": [
+        "Media ranks are allowed to advertise their own social media accounts."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30m"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "1h"
+      },
+      "4": {
+        "type": "mute",
+        "duration": "1d"
+      },
+      "5": {
+        "type": "mute",
+        "duration": "7d"
+      }
+    }
+  },
+  "Death Wishes": {
+    "display_item": "REDSTONE",
+    "information": {
+      "description": "Wishing death or harm to another player",
+      "fancy_reason": "Wishing death or harm to another player",
+      "valid": [
+        "Saying \"kys\" or \"kill yourself\"",
+        "Saying \"get cancer\"",
+        "Saying \"I hope your mom dies\""
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "mute",
+        "duration": "7d"
+      },
+      "2": {
+        "type": "mute",
+        "duration": "30d"
+      },
+      "3": {
+        "type": "mute",
+        "duration": "permanent"
+      }
+    }
+  },
+  "Inappropriate Item/Team": {
+    "display_item": "REDSTONE",
+    "information": {
+      "description": "Using an inappropriate item or team name",
+      "fancy_reason": "Inappropriate Item/Team",
+      "valid": [
+        "Any item or team name that are inappropriate or offensive."
+      ]
+    },
+    "offenses": {
+      "1": {
+        "type": "warn",
+        "duration": "permanent"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "1d"
+      },
+      "3": {
+        "type": "ban",
+        "duration": "3d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "5": {
+        "type": "ban",
+        "duration": "14d"
+      },
+      "6": {
+        "type": "ban",
+        "duration": "30d"
+      }
+    }
+  }
+}
