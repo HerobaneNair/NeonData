@@ -150,14 +150,10 @@
        },
        "offenses":{
           "1":{
-             "type":"warn",
-             "duration":"permanent"
-          },
-          "2":{
              "type":"ban",
              "duration":"30d"
           },
-          "3":{
+          "2":{
              "type":"ban",
              "duration":"permanent"
           }
@@ -215,11 +211,7 @@
           },
           "4":{
              "type":"mute",
-             "duration":"7d"
-          },
-          "5":{
-             "type":"mute",
-             "duration":"permanent"
+             "duration":"6h"
           }
        }
     },
@@ -247,14 +239,6 @@
           "3":{
              "type":"mute",
              "duration":"1h"
-          },
-          "4":{
-             "type":"mute",
-             "duration":"7d"
-          },
-          "5":{
-             "type":"mute",
-             "duration":"permanent"
           }
        }
     },
@@ -284,10 +268,6 @@
           "4":{
              "type":"mute",
              "duration":"7d"
-          },
-          "5":{
-             "type":"mute",
-             "duration":"permanent"
           }
        }
     },
@@ -312,19 +292,15 @@
           },
           "2":{
              "type":"mute",
-             "duration":"12h"
+             "duration":"6h"
           },
           "3":{
              "type":"mute",
-             "duration":"1d"
+             "duration":"12h"
           },
           "4":{
              "type":"mute",
-             "duration":"7d"
-          },
-          "5":{
-             "type":"mute",
-             "duration":"permanent"
+             "duration":"1d"
           }
        }
     },
@@ -390,11 +366,11 @@
        "offenses":{
           "1":{
              "type":"mute",
-             "duration":"30d"
+             "duration":"7d"
           },
           "2":{
              "type":"mute",
-             "duration":"permanent"
+             "duration":"30d"
           }
        }
     },
@@ -416,13 +392,25 @@
        },
        "offenses":{
           "1":{
-             "type":"mute",
-             "duration":"30d"
+             "type":"warn",
+             "duration":"permanent"
           },
           "2":{
              "type":"mute",
-             "duration":"permanent"
-          }
+             "duration":"30m"
+          },
+          "3":{
+            "type":"mute",
+            "duration":"1h"
+         },
+         "4":{
+            "type":"mute",
+            "duration":"1d"
+         },
+         "5":{
+            "type":"mute",
+            "duration":"7d"
+         }
        }
     },
     "Death Wishes":{
