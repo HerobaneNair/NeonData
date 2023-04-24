@@ -440,7 +440,7 @@
     }
   },
   "Inappropriate Item/Team": {
-    "display_item": "REDSTONE",
+    "display_item": "RED_CANDLE",
     "information": {
       "description": "Using an inappropriate item or team name",
       "fancy_reason": "Inappropriate Item/Team",
