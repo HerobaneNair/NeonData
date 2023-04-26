@@ -329,7 +329,11 @@
       },
       "4": {
         "type": "mute",
-        "duration": "permanent"
+        "duration": "60d"
+      },
+      "5": {
+        "type": "mute",
+        "duration": "120d"
       }
     }
   },
