@@ -545,7 +545,9 @@
             "description": "Creating an inappropriate build",
             "fancy_reason": "Inappropriate Build",
             "valid": [
-                "Builds that spell out inappropriate phrases"
+                "Builds that spell out inappropriate phrases",
+                "Building a swastika",
+                "Building anything else that may be offensive or otherwise objectionable."
             ]
         },
         "offenses": {
