@@ -365,18 +365,34 @@
             }
         }
     },
-    "Punishment Evasion": {
+    "Ban Evasion": {
         "display_item": "TRIDENT",
         "information": {
-            "description": "Evading a punishment",
-            "fancy_reason": "Evading a punishment",
+            "description": "Evading a ban",
+            "fancy_reason": "Evading a ban",
+            "valid": [
+                "Using an alt or other methods to evade a ban."
+            ]
+        },
+        "offenses": {
+            "1": {
+                "type": "ban",
+                "duration": "permanent"
+            }
+        }
+    },
+    "Mute Evasion": {
+        "display_item": "PAPER",
+        "information": {
+            "description": "Evading a mute",
+            "fancy_reason": "Evading a mute",
             "valid": [
                 "Using signs, an alt, or other methods to evade a mute."
             ]
         },
         "offenses": {
             "1": {
-                "type": "blacklist",
+                "type": "mute",
                 "duration": "permanent"
             }
         }
