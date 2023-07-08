@@ -7,14 +7,25 @@
             "(ph|f)[a@]gg?[o0][t\\+][s\\$5]?",
             "(ph|f)[a@]gg[s\\$]",
             "n[i!1l]gg?[a4]",
-            "卍|卐",
-            "testmsg123123"
+            "卍|卐"
         ],
         "filter": true,
         "auto-punish": true,
         "notify-staff": true,
         "commands": [
             "punish %player% Discrimination"
+        ]
+    },
+    "death_wishes": {
+        "patterns": [
+            "^kys$",
+            "k[1|i|l][1|i|l[1|i|l]l[ ]{0,1}y[o|0]ur[ ]{0,1}s[3|e][1|i|l]f"
+        ],
+        "filter": true,
+        "auto-punish": true,
+        "notify-staff": true,
+        "commands": [
+            "punish %player% Death Wishes"
         ]
     },
     "advertisement": {
@@ -82,7 +93,10 @@
             "[s\\$][e3]x",
             "[s\\$]h[i1][t\\+][s\\$]?",
             "[s\\$][l1]u[t\\+][s\\$]?",
-            "r[3e]t[4a]rd"
+            "r[3e]t[4a]rd",
+            "cunt$",
+            "g[4|a]y",
+            "wh[0|o]r[e|3]"
         ],
         "filter": true,
         "auto-punish": false,
