@@ -38,7 +38,15 @@
             "\\/j[0o][i1l]n"
         ],
         "ignored-patterns": [
-            "leonemc.net"
+            "leonemc",
+            "youtube",
+            "twitter",
+            "instagram",
+            "imgur",
+            "gyazo",
+            "prntscr",
+            "prnt\\.sc",
+            "cdn"
         ],
         "filter": true,
         "auto-punish": false,
