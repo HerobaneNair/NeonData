@@ -8,7 +8,7 @@
             "(ph|f)[a@]gg[s\\$]",
             "n[i!1l]gg?[a4]",
             "卍|卐",
-            "test msg 123123"
+            "testmsg123123"
         ],
         "filter": true,
         "auto-punish": true,
