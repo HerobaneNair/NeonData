@@ -8,8 +8,7 @@
             "(ph|f)[a@]gg[s\\$]",
             "n+[i!1l]+gg+?[a4]+",
             "^n[i|1|!]+g+$",
-            "卍|卐",
-            "testdiscrim"
+            "卍|卐"
         ],
         "filter": true,
         "auto-punish": true,
