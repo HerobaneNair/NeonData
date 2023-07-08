@@ -1,12 +1,13 @@
 {
     "discrimination": {
         "patterns": [
-            "n[i1l!u]gg?[e3o]r[s\\$5]?",
+            "n[i1l!u]+gg+?[e3o]+r+[s\\$5]?",
             "(ph|f)[a@]g[s\\$]?",
             "(ph|f)[a@]gg[i1]ng",
             "(ph|f)[a@]gg?[o0][t\\+][s\\$5]?",
             "(ph|f)[a@]gg[s\\$]",
-            "n[i!1l]gg?[a4]",
+            "n+[i!1l]+gg+?[a4]+",
+            "^n[i|1|!]+g+$",
             "卍|卐"
         ],
         "filter": true,
@@ -98,7 +99,7 @@
             "cunt$",
             "g[4|a]y",
             "wh[0|o]r[e|3]",
-            "k[a|4]nk[e|3]r"
+            "k[a|4]nkr"
         ],
         "filter": true,
         "auto-punish": false,
