@@ -46,7 +46,11 @@
             "gyazo",
             "prntscr",
             "prnt\\.sc",
-            "cdn"
+            "cdn",
+            "pvphub",
+            "minemen",
+            "pvplegacy",
+            "mcpvp"
         ],
         "filter": true,
         "auto-punish": false,
