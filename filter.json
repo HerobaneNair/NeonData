@@ -7,7 +7,7 @@
             "(ph|f)[a@]gg?[o0][t\\+][s\\$5]?",
             "(ph|f)[a@]gg[s\\$]",
             "n+[i!1l]+gg+?[a4]+",
-            "^n[i|1|!]+g+$",
+            "\bn[i|1|!]+g+$.*\b",
             "卍|卐"
         ],
         "filter": true,
@@ -19,7 +19,7 @@
     },
     "death_wishes": {
         "patterns": [
-            "^k+y+[s|\\$|5]+$",
+            "\bk+y+[s|\\$|5]+$.*\b",
             "(h[a|4]ng|n[3|e]ck|k[1|i|l|!]ll)[ ]{0,1}y[o|0]urs[e|3]lf",
             "c[o|0]mm[i|1|!]t su[i|1|!]c[i|1|!]de"
         ],
