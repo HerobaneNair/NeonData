@@ -6,7 +6,11 @@
             "(ph|f)[a@]gg[i1]ng",
             "(ph|f)[a@]gg?[o0][t\\+][s\\$5]?",
             "(ph|f)[a@]gg[s\\$]",
-            "n+[i!1l]+gg+?[a4]+"
+            "n+[i!1l]+gg+?[a4]+",
+            "b[e3][a4]n[e3]r",
+            "ch[i1]nk",
+            "n[e3]gr[o0][1i]d",
+            "n[e3]gr[o0][s5]"
         ],
         "filter": true,
         "auto-punish": true,
@@ -19,6 +23,8 @@
     "discrimination": {
         "patterns": [
             "\bn[i|1|!]+g+$.*\b",
+            "\bc[o0][o0]+n.*\b",
+            "c[o0]tt[o0]n[ ]{0,1}p[i1|!]+ck[e3]+r",
             "卍|卐"
         ],
         "filter": true,
@@ -32,11 +38,12 @@
         "patterns": [
             "\\bk+y+[s|\\$|5]+$.*\\b",
             "(h[a|4]ng|n[3|e]ck|k[1|i|l|!]ll)[ ]{0,1}y[o|0]urs[e|3]lf",
-            "c[o|0]mm[i|1|!]t su[i|1|!]c[i|1|!]de"
+            "c[o|0]mm[i|1|!]t[ ]{0,1}su[i|1|!]c[i|1|!]de"
         ],
         "filter": true,
         "auto-punish": true,
         "notify-staff": true,
+        "strict": true,
         "commands": [
             "punish %player% Death Wishes"
         ]
@@ -45,7 +52,8 @@
         "patterns": [
             "m[1il]n[e3]hut.gg",
             "(?:[a-z0-9-]{0,61}[a-z0-9])\\.(?:[net|com|gg]{2,3})",
-            "\\/j[0o][i1l]n"
+            "\\/j[0o][i1l]n",
+            "\\(dot\\)"
         ],
         "ignored-patterns": [
             "leonemc",
@@ -120,9 +128,16 @@
             "[s\\$][l1]u[t\\+][s\\$]?",
             "r[3e]t[4a]rd",
             "cunt$",
-            "g[4|a]y",
+            "g[4a]y",
+            "h[o0]m[o0]",
             "wh[0|o]r[e|3]",
-            "k[a|4]nkr"
+            "w[a4]nk",
+            "k[a|4]nk[e3]r",
+            "n[a|4]z[i|1]",
+            "m[i1][e3]rd[a4]",
+            "\bp[u0v]t[o0a4].*\b",
+            "b[o0]n[e3]r",
+            "d[1i]ld[o0]"
         ],
         "filter": true,
         "auto-punish": false,
