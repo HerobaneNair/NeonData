@@ -20,8 +20,8 @@
     "discrimination": {
         "patterns": [
             "\bn[i|1|!]+g+$.*\b",
-            "(ph|f)[a@]gg[s\\$]",
-            "(ph|f)[a@]g[s\\$]?",
+            "\b(ph|f)[a@]g+g?[s\\$]\b",
+            "\b(ph|f)[a@]g+[s\\$]?\b",
             "b[e3][a4]n[e3]r",
             "\bc[o0][o0]+n.*\b",
             "c[o0]tt[o0]n[ ]{0,1}p[i1|!]+ck[e3]+r",
