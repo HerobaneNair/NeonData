@@ -62,7 +62,10 @@
 			"m[1il]n[e3]hut.gg",
 			"(?:[a-z0-9-]{0,61}[a-z0-9])\\.(?:[net|com|gg]{2,3})",
 			"\\/j[0o][i1l]n",
-			"\\(dot\\)"
+			"\\(dot\\)",
+			"br[o|0]k[1|i]t[s|5]",
+			"br[o|0]b[o|0]x[e|3]d",
+			"br[o|0]pr[o|0]xy"
 		],
 		"ignored-patterns": [
 			"leonemc",
