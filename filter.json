@@ -14,7 +14,7 @@
 		"notify-staff": true,
 		"strict": true,
 		"commands": [
-			"punish %player% Discrimination"
+			"mute %player% Discrimination"
 		]
 	},
 	"discrimination": {
@@ -31,7 +31,7 @@
 		"auto-punish": true,
 		"notify-staff": true,
 		"commands": [
-			"punish %player% Discrimination"
+			"mute %player% Discrimination"
 		]
 	},
 	"death_wishes": {
@@ -54,7 +54,7 @@
 		"notify-staff": true,
 		"strict": true,
 		"commands": [
-			"punish %player% Death Wishes"
+			"mute %player% Death Wishes"
 		]
 	},
 	"advertisement": {
