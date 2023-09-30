@@ -80,7 +80,9 @@
 			"pvphub",
 			"minemen",
 			"pvplegacy",
-			"mcpvp"
+			"mcpvp",
+			"sr\\.mod",
+			"jr\\.mod"
 		],
 		"filter": true,
 		"auto-punish": false,
