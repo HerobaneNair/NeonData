@@ -403,12 +403,14 @@
             "description": "Advertising another server",
             "fancy_reason": "Advertising another server",
             "valid": [
-                "Saying \"join shitpvp.com\" or \"do /join shitpvp\""
+                "Saying \"join shitpvp.com\" or \"do /join shitpvp\"",
+                "Usually Minehut servers, like a player saying \"/join shitpvp on minehut to be braindead\"."
             ],
             "invalid": [
                 "Saying \"hey let's 1v1 on mmc\"",
                 "Saying \"hey let's go play on hypixel\"",
-                "Bigger servers like hypixel, etc are allowed to be mentioned."
+                "1v1 me on east.uspvp.org",
+                "Bigger servers like hypixel, mine men club,  or servers specifically meant for duels are allowed to be mentioned."
             ]
         },
         "offenses": {
